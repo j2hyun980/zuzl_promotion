@@ -17,7 +17,7 @@ $(function () {
   // use
   const mb = new Swiper('.slide_use', {
     loop: true,
-    //autoplay: { delay: 3000, disableOnInteraction: false, },
+    autoplay: { delay: 3000, disableOnInteraction: false, },
     speed: 600,
     pagination: { el: ".swiper-pagination", type: "bullets", clickable: true, },
   });
